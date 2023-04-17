@@ -50,6 +50,7 @@ h6 {
 .header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 156px;
+  margin: 0;
 }
 
 .header-box {
@@ -109,9 +110,13 @@ h6 {
   color: var(--main-title-color);
 }
 
-.navigation-links {}
+.navigation-links {
+  
+}
 
-.navigation-links:nth-child(n-1) {}
+.navigation-links:nth-child(n-1) {
+
+}
 
 .navigation-link-item:hover,
 .navigation-link-item:focus {
@@ -280,24 +285,6 @@ h6 {
   margin-bottom: 32px;
 }
 
-.footer {
-  background-color: var(--main-title-color);
-  color: var(--secondary-bg-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  padding: 100px 0;
-}
-
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer-text {
-  width: 264px;
-}
-
 .portfolio {
   padding: 96px 120px;
 }
@@ -372,4 +359,22 @@ h6 {
 .portfolio-items-text {
   margin-left: 16px;
   color: var(--main-text-color);
+}
+
+.footer {
+  background-color: var(--main-title-color);
+  color: var(--secondary-bg-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  width: 264px;
 }
