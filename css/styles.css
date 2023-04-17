@@ -52,7 +52,7 @@ h6 {
   padding: 24px 156px;
 }
 
-.header-div {
+.header-box {
   display: flex;
   align-items: center;
 }
@@ -69,12 +69,12 @@ h6 {
   list-style: none;
 }
 
-.nav {
+.navigation {
   display: flex;
   align-items: center;
 }
 
-.web-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -86,7 +86,7 @@ h6 {
   color: var(--primaty-accent-color);
 }
 
-.studio-logo {
+.logo-first-color {
   color: var(--main-title-color);
 }
 
@@ -94,7 +94,7 @@ h6 {
   color: #f4f4fd;
 }
 
-.nav-list {
+.navigation-list {
   display: flex;
   gap: 40px;
 }
@@ -152,7 +152,7 @@ h6 {
   padding: 188px 0;
 }
 
-.hero-title {
+.hero-header {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -163,7 +163,7 @@ h6 {
   color: #ffffff;
 }
 
-.hero-title-button {
+.hero-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -181,8 +181,8 @@ h6 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.hero-title-button:hover,
-.hero-title-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -196,22 +196,22 @@ h6 {
   margin-bottom: 72px;
 }
 
-.our-advantages {
+.skills {
   padding: 120px 0;
   width: 1128px;
   margin: 0 auto;
 }
 
-.our-advantages-list {
+.skills-list {
   display: flex;
   gap: 24px;
 }
 
-.our-advantages-list-item {
+.skills-list-item {
   width: 264px;
 }
 
-.our-advantages-list-title {
+.skills-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -219,16 +219,16 @@ h6 {
   margin-bottom: 8px;
 }
 
-.w-a-w-d {
+.we-doing {
   padding: 120px 156px;
 }
 
-.wawd-list {
+.we-doing-list {
   display: flex;
   margin: 0 auto;
 }
 
-.wawd-list-item:nth-child(n-1) {
+.we-doing-list-item:nth-child(n-1) {
   margin-right: 24px;
 }
 
@@ -241,7 +241,7 @@ h6 {
   display: flex;
 }
 
-.our-team-list-item {
+.our-team-item {
   width: 264px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -249,7 +249,7 @@ h6 {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.our-team-list-item:nth-child(n-1) {
+.our-team-item:nth-child(n-1) {
   margin-right: 24px;
 }
 
@@ -266,7 +266,7 @@ h6 {
   margin-bottom: 8px;
 }
 
-.our-team-item-list-img {
+.our-team-item-photo {
   margin-bottom: 32px;
 }
 
@@ -334,14 +334,14 @@ h6 {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.project-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.project-card {
+.portfolio-items {
   box-sizing: border-box;
   width: 360px;
   padding-bottom: 32px;
@@ -349,7 +349,7 @@ h6 {
 
 }
 
-.project-card-title {
+.portfolio-items-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -359,17 +359,17 @@ h6 {
   color: var(--main-title-color);
 }
 
-.project-item-box {
+.portfolio-item-conteiner {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 
-.project-item-photo {
-width: 360px;
+.portfolio-items-photo {
+  width: 360px;
 }
 
-.project-card-text {
+.portfolio-items-text {
   margin-left: 16px;
   color: var(--main-text-color);
 }
