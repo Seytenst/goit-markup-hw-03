@@ -52,6 +52,7 @@ h6 {
   padding: 24px 156px;
   margin: 0 auto;
   padding: 0 auto;
+  margin: 0 auto
 }
 
 .header-div {
@@ -64,7 +65,6 @@ h6 {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  padding: 0 auto;
 }
 
 .list {
