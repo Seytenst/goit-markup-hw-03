@@ -24,10 +24,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
   margin: 0;
   padding: 0;
   color: var(--main-title-color);
+}
+
+p{
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -106,13 +111,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   text-decoration: none;
-  
+  margin-right: 76px;
   color: var(--primaty-accent-color);
 }
 
 .logo-header {
   color: var(--main-title-color);
-  margin-right: 76px;
 }
 
 .logo-portfolio {
@@ -225,7 +229,7 @@ body {
 }
 
 .skills {
-  padding-top: 120px ;
+  padding-top: 120px 0;
 }
 
 .skills-list {
@@ -242,13 +246,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .skills-text{
-  margin-top: 16px;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .w-a-w-d {
-  padding: 120px 156px;
+  padding: 120px
 }
 
 .wawd-list {
@@ -320,6 +325,7 @@ body {
 
 .footer-logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
