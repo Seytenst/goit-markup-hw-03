@@ -229,7 +229,7 @@ body {
 }
 
 .skills {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .skills-list {
@@ -253,7 +253,7 @@ body {
   margin-bottom: 0px;
 }
 .w-a-w-d {
-  padding: 120px
+  padding-bottom: 120px;
 }
 
 .wawd-list {
